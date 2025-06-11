@@ -1,0 +1,6 @@
+@udemy_dotnet_HostAddress = http://localhost:5096
+
+GET {{udemy_dotnet_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
