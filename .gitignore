@@ -1,0 +1,33 @@
+## Build output
+bin/
+obj/
+
+## User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Rider
+.idea/
+
+## VS Code
+.vscode/
+
+## Visual Studio
+.vs/
+
+## ASP.NET Secret Manager
+**/secrets.json
+
+## Runtime-generated files
+*.db
+*.log
+
+## Others
+*.pdb
+*.cache
+*.tmp
+*.bak
+*.swp
