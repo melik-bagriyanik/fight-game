@@ -31,3 +31,4 @@
 /Users/melikbagriyanik/Desktop/workspace/udemy-dotnet/obj/Debug/net8.0/udemy-dotnet.pdb
 /Users/melikbagriyanik/Desktop/workspace/udemy-dotnet/obj/Debug/net8.0/udemy-dotnet.genruntimeconfig.cache
 /Users/melikbagriyanik/Desktop/workspace/udemy-dotnet/obj/Debug/net8.0/ref/udemy-dotnet.dll
+/Users/melikbagriyanik/Desktop/workspace/udemy-dotnet/obj/Debug/net8.0/udemy-dotnet.sourcelink.json
