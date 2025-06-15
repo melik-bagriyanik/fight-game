@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using udemy_dotnet.Models;
 
 
 
@@ -20,23 +21,23 @@ namespace udemy_dotnet.Controller
             _characterService = characterService;
         }
         [HttpGet("GetAll")]
-        public ActionResult<List<Character>> Get()
+        public async Task<ActionResult<ServiceResponse<List<GetCharachterDto>>>> Get()
         {
-            return Ok(_characterService.GetAllCharacters());
+            return Ok(await _characterService.GetAllCharacters());
         }
 
 
-        [HttpGet("{id}")]// Get a single character by idr
-        public ActionResult<Character> GetSingle(int id)
+        [HttpGet("{id}")]// Get a single character by id
+        public async Task<ActionResult<ServiceResponse<GetCharachterDto>>> GetSingle(int id)
         {
-            return Ok(_characterService.GetCharacterById(id));
+            return Ok(await _characterService.GetCharacterById(id));
         }
             
 
         [HttpPost]
-        public ActionResult<List<Character>> AddCharacter(Character newCharacter)
+        public async Task<ActionResult<ServiceResponse<List<GetCharachterDto>>>> AddCharacter(AddCharacterDto newCharacter)
         {
-            return Ok(_characterService.AddCharacter(newCharacter));
+            return Ok(await _characterService.AddCharacter(newCharacter));
         }
     }
 }

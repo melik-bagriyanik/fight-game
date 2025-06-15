@@ -1,5 +1,6 @@
 global using udemy_dotnet.models;
 global using udemy_dotnet.Services.CharacterService;
+global using udemy_dotnet.Dtos.Character;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
