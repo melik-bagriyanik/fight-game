@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("udemy-dotnet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e3a18e40adcc651cad128ed8e5e51d54d21b29d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3fd558da365e6e5401b37aeed4b54ec067072189")]
 [assembly: System.Reflection.AssemblyProductAttribute("udemy-dotnet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("udemy-dotnet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

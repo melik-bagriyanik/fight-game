@@ -32,3 +32,5 @@
 /Users/melikbagriyanik/Desktop/workspace/udemy-dotnet/obj/Debug/net8.0/udemy-dotnet.genruntimeconfig.cache
 /Users/melikbagriyanik/Desktop/workspace/udemy-dotnet/obj/Debug/net8.0/ref/udemy-dotnet.dll
 /Users/melikbagriyanik/Desktop/workspace/udemy-dotnet/obj/Debug/net8.0/udemy-dotnet.sourcelink.json
+/Users/melikbagriyanik/Desktop/workspace/udemy-dotnet/bin/Debug/net8.0/AutoMapper.dll
+/Users/melikbagriyanik/Desktop/workspace/udemy-dotnet/bin/Debug/net8.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
