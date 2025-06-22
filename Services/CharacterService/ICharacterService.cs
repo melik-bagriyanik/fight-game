@@ -12,5 +12,9 @@ namespace udemy_dotnet.Services.CharacterService
 
         Task<ServiceResponse<GetCharachterDto>> GetCharacterById(int id);
         Task<ServiceResponse<List<GetCharachterDto>>> AddCharacter(AddCharacterDto character);
+
+        Task<ServiceResponse<GetCharachterDto>> UpdateCharacter(UpdateCharacterDto updatedCharacter);
+
+        Task<ServiceResponse<GetCharachterDto>> DeleteCharacter(int id);
     }
 }
