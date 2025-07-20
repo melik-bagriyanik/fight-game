@@ -2,6 +2,8 @@ global using udemy_dotnet.models;
 global using udemy_dotnet.Services.CharacterService;
 global using udemy_dotnet.Dtos.Character;
 global using AutoMapper;
+using udemy_dotnet.Data;
+using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -12,6 +14,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddControllers(); // Add services to the container if you want to use controllers
 builder.Services.AddAutoMapper(typeof(Program).Assembly);// Register AutoMapper
 builder.Services.AddScoped<ICharacterService, CharacterService>(); // Register the character service
+builder.Services.AddDbContext<DataContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 var app = builder.Build();
 app.MapControllers(); // Map controllers to the request pipeline
 
